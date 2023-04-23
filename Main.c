@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <math.h>
 
 
 //Shape
@@ -59,7 +59,7 @@
 
 //printf basic
 
-/*int main()
+/*int main5()
 *{
     *int favnum = 90;
     *char myChar = "i"
@@ -75,5 +75,54 @@
 */
 
 
-//TODO watch the video Timestamp 45:26 Working With Numbers
 //Working With Numbers
+
+/*int main6()
+*{
+    *int num = 6;
+    *printf("%f", 8.9);
+    *printf("%f\n", 5.0 + 4.5); //adding
+    *printf("%f\n", 5.0 - 4.5); //subtracting
+    *printf("%f\n", 5.0 * 4.5); //multiplying
+    *printf("%f\n ", 5.0 / 4.5); //dividing
+    *printf("%d\n", 5 / 4); //integer
+    *printf("%f\n", 5 / 4.0); //full answer
+    *printf("%d", num); //variables forum if you working with number put in a variables
+    *printf("%f", pow(2, 3) ); //power
+    *printf("%f", sqrt(36)); //square root
+    *printf("%f", ceil(36.356));
+    *google all the math function for C
+    *printf("%f", floor(36.656));//round the numbers 
+
+
+
+
+    *return 0;
+*}
+*/
+
+//more info about Comments
+
+/*int main7()
+{
+    anther way of writing comments
+    printf("Comments are fun"); 
+    
+    
+    return 0;
+}
+*/
+
+//Constants
+//TODO at Timestamped  57:52 Constants
+
+/*int main()
+{
+    int num = 5;
+    printf("%d\n", num);
+    num = 8;
+    printf("%d", num);
+
+    return 0;
+}
+*/

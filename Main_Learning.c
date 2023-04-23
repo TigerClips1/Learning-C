@@ -114,15 +114,116 @@
 */
 
 //Constants
-//TODO at Timestamped  57:52 Constants
 
-/*int main()
+/*int main8()
 {
     int num = 5;
     printf("%d\n", num);
     num = 8;
     printf("%d", num);
 
+    const int NUM2 = 6;
+
+    printf("%d\n", NUM2);
+    
+    printf("%d", NUM2);
+    printf("hello");
+    printf("%d", 70);
+    
+
+
     return 0;
 }
 */
+
+
+
+// Getting User Input basic
+
+/*int main9()
+{
+    int age;
+    printf("Enter your age: ");
+    scanf("%d", &age);
+    printf("You are %d years old\n", age);
+    double gpa;
+    printf("Enter your gpa: ");
+    scanf("%lf", &gpa);
+    printf("your gpa is %f\n", gpa);
+    char grade;
+    printf("Enter your grade: ");
+    scanf("%c", &grade);
+    printf("Your grade is %c\n", grade);   
+    char name[20];  
+    printf("Enter your name: ");
+    scanf("%s", name);
+    printf("Your name is %s\n", name);
+    
+    char name[20];  
+    printf("Enter your name: ");
+    fgets(name, 20, stdin);
+    printf("Your name is %s\n", name);
+
+    return 0;
+}
+*/
+
+
+//Arrays
+
+/*int main10()
+{
+    int LuckyNumbers[] = {4, 8, 15, 16, 23, 42};
+    int LuckyNumber[10];
+    LuckyNumber[1] = 21;
+    LuckyNumber[2] = 31;
+    printf("%d\n\n", LuckyNumbers[0]);
+    LuckyNumbers[2] = 21;
+    printf("%d", LuckyNumbers[2]);
+    printf("%d\n\n", LuckyNumber[1]);
+    printf("%d", LuckyNumber[2]);
+
+    return 0;
+}
+*/
+
+//Function
+/*void sayHi(char name[], int age){
+    printf("Hello %s, You Are %d\n", name, age); 
+}
+
+int main11()
+{
+    printf("top\n");
+    sayHi("Elliot", 40);
+    sayHi("Tom",23);
+    sayHi("Jerry", 20);
+
+    printf("Bottom\n");
+    return 0;
+}
+*/
+
+// Return Statement
+
+/*double cube(double num);
+int main12()
+{
+    printf("Answer: %f", cube(7.0));
+    return 0;
+}
+double cube(double num){
+    //double result = num * num * num;
+    //return result;
+    return num * num * num;
+}
+*/
+
+// if statement
+
+//TODO watch Timestamps 1:54:10 video if statement
+/*int main(){
+
+    return 0;
+}
+/*

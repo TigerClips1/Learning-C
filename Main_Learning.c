@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
+#include <string.h>
 
 //Shape
 
@@ -221,9 +221,115 @@ double cube(double num){
 
 // if statement
 
-//TODO watch Timestamps 1:54:10 video if statement
-/*int main(){
+/*int max(int num1, int num2, int num3){
+    int result;
+     //old hehe
+    if(num1 > num2){
+        result = num1;
+
+     } else {
+        result = num2;
+     }
+
+    if(num1 >= num2 && num1 >= num3){
+        result = num1;
+
+    } else if(num2 >= num1 && num2 >= num3){
+        result = num2;
+
+    } else {
+     result = num3;
+    }
+    return result;
+}
+int main13(){
+
+    printf("%d", max(10, 2, 3));
+
+    if(3 < 2 || 2 > 5) { //<= >= ==  <  >  !=
+        //printf("True");
+    } else{
+        //printf("False");
+    }
+
+    if(!(3 < 2)){ // or you can do this and it will print out false if(!(3 > 2))
+        printf("True");
+    } else {
+        printf("False");
+    }
+    return 0;
+}
+*/
+
+//switch statement
+/*int main14(){
+    
+    char grade = 'F'; //change the F to A or B or C or D or F  again
+    
+    switch(grade){
+    case 'A':
+        printf("You did great");
+        break;
+    case 'B':
+        printf("You did good");
+        break;
+    case 'C':
+        printf("You did not so bad");
+        break;
+    case 'D':
+        printf("You did not that bad");
+        break;
+    case 'F':
+        printf("Please do better the test next time");
+        break;
+    default:
+        printf("Invalid Grade");
+    }
+    return 0;
+}
+*/
+
+// Structs
+
+/*struct Student{
+    char name [50];
+    char major [50];
+    int age;
+    double gpa;
+};
+
+int main15(){
+    
+    
+    struct Student student1;
+    student1.age = 22;
+    student1.gpa = 3.5;
+    strcpy(student1.name, "Jim" );
+    strcpy(student1.major, "Computer" );
+    printf("%f\n", student1.gpa);
+    printf("%d\n", student1.age);
+    printf("%s\n", student1.name);
+    printf("%s\n\n", student1.major);
+    
+    
+    struct Student student2;
+    student2.age = 23;
+    student2.gpa = 3.6;
+    strcpy(student2.name, "Elliot" );
+    strcpy(student2.major, "Art" );
+    printf("%f\n\n", student2.gpa);
+    printf("%d\n", student2.age);
+    printf("%s\n", student2.name);
+    printf("%s\n", student2.major);
 
     return 0;
 }
 */
+
+//TODO Watch time staps 2:29:43 While Loops
+// While Loops
+int main(){
+    
+    
+    return 0;
+}

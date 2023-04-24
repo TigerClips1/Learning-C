@@ -17,6 +17,7 @@
 */
 
 // Print hello world
+
 /*int main2()
 *{
     *printf("Hello World \n");
@@ -25,9 +26,9 @@
 *}
 */
 
+//variables
 
 /*
-*variables
 *int main3()
 *{
     *char characterName[] = "Tom";
@@ -188,6 +189,7 @@
 */
 
 //Function
+
 /*void sayHi(char name[], int age){
     printf("Hello %s, You Are %d\n", name, age); 
 }
@@ -262,6 +264,7 @@ int main13(){
 */
 
 //switch statement
+
 /*int main14(){
     
     char grade = 'F'; //change the F to A or B or C or D or F  again
@@ -326,10 +329,78 @@ int main15(){
 }
 */
 
-//TODO Watch time staps 2:29:43 While Loops
 // While Loops
-int main(){
+
+/*int main16(){
+     
+     int index = 1;
+     int index = 6;
+    do{
+        printf("%d\n", index);
+        index++;
+    }while(index <= 5);
+    while(index <= 100){
+        printf("%d\n", index);
+        index = index + 1; // or index ++;
+    }
+    return 0;
+}
+*/
+
+//For Loops
+
+/*int main17(){
+    int LuckyNumbers[] = {4, 8, 15, 16, 23, 42};
     
+    int i;
+    for(i = 0; i < 6; i++){
+        printf("%d\n", LuckyNumbers[i]);
+    }
+
+    return 0;
+}
+*/
+
+//2D Arrays & Nested Loops
+//TODO  3:00:20 Timestamps
+
+int main(){
+    int nums[] [];
+    return 0;
+}
+
+//Memory Addresses
+
+/*int main(){
     
     return 0;
 }
+
+//Pointers
+
+int main(){
+    
+    return 0;
+}
+
+//Dereferencing Pointers
+
+int main(){
+    
+    return 0;
+}
+
+//Writing Files
+
+int main(){
+    
+    return 0;
+}
+
+//Reading Files
+
+int main(){
+    
+    return 0;
+}
+*/

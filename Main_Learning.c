@@ -362,45 +362,108 @@ int main15(){
 */
 
 //2D Arrays & Nested Loops
-//TODO  3:00:20 Timestamps
+/*int main18(){
+    int nums[3] [2] = {
+                   {1,2},
+                   {3, 4},
+                   {5, 6}
+                   };
+    //printf("%d", nums[1][1]);
 
-int main(){
-    int nums[] [];
+    int i, j;
+    for(i = 0; i < 3; i++){
+        for(j = 0; j < 2; j++){
+            printf("%d,", nums[i][j]);
+        }
+        printf("\n");
+    }
+
     return 0;
 }
+*/
 
 //Memory Addresses
 
-/*int main(){
+/*int main19(){
     
-    return 0;
+    int age = 30;
+    double gpa = 3.4;
+    char grade = 'A';
+
+    printf("age: %p\ngpa: %p\ngrade: %p", &age, &gpa, &grade);
+    
+     return 0;
 }
+*/
 
 //Pointers
 
-int main(){
-    
-    return 0;
-}
+/*int main20(){
+    int age = 30;
+    int * pAge = &age;
+    double gpa - 3.4;
+    double * pGpa = &gpa;
+    char grade = 'A';
+    char * pGrade = &grade;
 
-//Dereferencing Pointers
-
-int main(){
-    
-    return 0;
-}
-
-//Writing Files
-
-int main(){
-    
-    return 0;
-}
-
-//Reading Files
-
-int main(){
+    printf("age's memory address: %p\n", &age);
     
     return 0;
 }
 */
+
+//Dereferencing Pointers
+
+/*int main21(){
+    int age = 30;
+    int *pAge = &age;
+
+    //printf("%p", pAge);
+    //printf("%d", *pAge);
+    //printf("%d", *&age);
+    printf("%d", *&age);// in the video he say you can do this printf("%d", &*&age); but it don't work in vs code so it may only be for codeblock only or i have to #include <something.h>
+
+
+    return 0;
+}
+*/
+
+//Writing Files
+
+/*int main22(){
+    
+    //FILE * fpointer = fopen("employees.txt", "w" ); // r stand for read or w stand for write or a stand for append or /home/$USER/employees.txt/ or for windows c:/etc
+    FILE * fpointer = fopen("employees.txt", "a" );
+
+    fprintf(fpointer, "\n Mike, coding");//warn you if you use w it will  replace the entire name and  will override the file to add the name so  be careful or if you use a you can add text with out it being override
+    
+    fclose(fpointer);
+    return 0;
+}
+*/
+
+//Reading Files
+
+/*int main23(){
+    char line[255];
+    FILE * fpointer = fopen("employees.txt", "r");
+    
+    fgets(line, 255, fpointer);
+    fgets(line, 255, fpointer);
+    printf("%s", line);
+    
+    fclose(fpointer);
+    return 0;
+}
+*/
+
+int open(){
+    
+    printf("your PC will open a link to the youtube guide i watch to learn C");
+    
+    system("start https://www.youtube.com/watch?v=KJgsSFOSQv0&list=PLDC3CtA6ACLo0diiDqwXyyYkFywkIS5dF&index=3&t=12757s");
+    system("open https://www.youtube.com/watch?v=KJgsSFOSQv0&list=PLDC3CtA6ACLo0diiDqwXyyYkFywkIS5dF&index=3&t=12757s");
+    system("xdg-open https://www.youtube.com/watch?v=KJgsSFOSQv0&list=PLDC3CtA6ACLo0diiDqwXyyYkFywkIS5dF&index=3&t=12757s");
+
+    return 0;
+}

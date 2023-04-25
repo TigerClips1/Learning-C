@@ -3,6 +3,8 @@
 #include <math.h>
 #include <string.h>
 
+//TODO add comments about what all the c code do 
+
 //Shape
 
 /*int main()
